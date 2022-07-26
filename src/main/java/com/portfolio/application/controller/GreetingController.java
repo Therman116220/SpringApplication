@@ -15,7 +15,7 @@ import java.util.Map;
 @Controller
 public class GreetingController {
 
-@GetMapping("/")
+@GetMapping("profile")
                        /* Map:String/Object Pair, w/ parameter name of "model" */
 public String greeting(Map<String, Object> model) {
     model.put("message", "Welcome Mike");

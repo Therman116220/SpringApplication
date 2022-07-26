@@ -7,7 +7,7 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 @SpringBootApplication
 /*Launches our app with configs from standard web apps*/
 /*Sets up internal view resource resolver*/
-/*Resolve JSP Pages & set up JSTL;Launch things*/
+/*Resolve JSP Pages & set up JSTL;Creates dispatch server & Launch things*/
 public class Application extends SpringBootServletInitializer {
 
 	public static void main(String[] args) {
