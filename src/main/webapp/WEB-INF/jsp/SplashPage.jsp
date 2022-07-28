@@ -7,5 +7,8 @@
 <body>
 <%--Will Access through controller--%>
 <h1>${message}</h1>
+<h1>${name}</h1>
+<h1>${4}</h1>
+
 </body>
 </html>
