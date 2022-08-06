@@ -7,6 +7,7 @@
 </head>
 <body>
 <h1>Registration</h1>
+<p> Register for a account here</p>
 <%--Binds to Registration Controller LINE 17--%>
 <%--<form:form modelAttribute="registration">
     <table>
