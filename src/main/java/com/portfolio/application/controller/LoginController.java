@@ -15,8 +15,8 @@ public class LoginController {
         return "login";
     }
 
+
+
 @PostMapping("login")
-    System.out.println("Login:" login.getId())")
-
-
+        System.out.println("Login:" login.getId())")
 }
