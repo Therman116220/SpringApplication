@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Footer</title>
+</head>
+<body>
+<footer th:fragment="footer" class="footer" id="footer">
+    <div class="d-flex justify-content-around border-top border-dark bg-secondary">
+        <a class="nav-link" th:href="@{/policies/cookies}">Cookies</a><br>
+        <a class="nav-link" th:href="@{/policies/disclaimer}">Disclaimer</a><br>
+        <a class="nav-link" th:href="@{/policies/eula}">EULA</a><br>
+        <a class="nav-link" th:href="@{/policies/privacy}">Privacy Policy</a><br>
+        <a class="nav-link" th:href="@{/policies/terms}">Terms and Conditions</a>
+    </div>
+</footer>
+</body>
+</html>
