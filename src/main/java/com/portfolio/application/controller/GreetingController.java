@@ -16,7 +16,7 @@ import java.util.Map;
 public class GreetingController {
 
 @GetMapping("home")
-                       /* Map:String/Object Pair, w/ parameter name of "model" */
+                       /* Map:String/Object Pair, w/ parameter name of "model" because its passed to model */
 public String greeting(Map<String, Object> model) {
     model.put("name", "Welcome ");
     /*model.put("name", "Bobby ");*/

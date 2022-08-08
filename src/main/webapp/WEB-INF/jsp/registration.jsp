@@ -7,16 +7,16 @@
 </head>
 <body>
 <h1>Registration</h1>
-<p> Register for a account here</p>
-<%--Binds to Registration Controller LINE 17--%>
-<%--<form:form modelAttribute="registration">
+<p> Register for an account here</p>
+Binds to Registration Controller LINE 17
+<form:form modelAttribute="registration">
     <table>
 
         <tr>
             <td>Name:</td>
             <td><form:input path="name"/></td>
         </tr>
-    &lt;%&ndash;&ndash;%&gt;
+    <%----%>
         <tr>
             <td colspan="2">
                 <input type="submit" value="Add Registration">
@@ -24,9 +24,9 @@
         </tr>
 
     </table>
-</form:form>--%>
+</form:form>
 
-<form th:action="@{/sign-up}" method="POST" th:object="${user}">
+<%--<form th:action="@{/sign-up}" method="POST" th:object="${user}">
     <label for="username">Username</label>
     <input id="username" th:field="*{username}" />
 
@@ -37,6 +37,6 @@
     <input id="password" type="password" th:field="*{password}" />
 
     <input value="Sign me up!" type="submit" />
-</form>
+</form>--%>
 </body>
 </html>
