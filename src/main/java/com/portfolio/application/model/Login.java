@@ -4,6 +4,7 @@ public class Login {
     private String Id;
     private String Password;
 
+    /*Getters & Setters*/
     public String getPassword() {
         return Password;
     }
