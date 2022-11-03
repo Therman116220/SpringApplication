@@ -17,7 +17,7 @@ body {
 .hero{
     height: 1vh;
     width: 100%;
-    background-image: url(../../../webapp/WEB-INF/img/pexels-cátia-matos-1072179.jpg);
+    /*background-image: url(../../../webapp/WEB-INF/img/pexels-cátia-matos-1072179.jpg);*/
 }
 nav {
     display: block;
@@ -25,16 +25,16 @@ nav {
     display: flex;
     */
     position: relative;
-    background-image: linear-gradient(315deg, rgb(31, 101, 112) 0%, rgb(23, 42, 67) 74%);
+    background-image:linear-gradient(350deg,#414141,#000000);
     /*    background-image: linear-gradient(315deg, rgb(229 236 237) 0%, rgb(13 79 166) 74%);*/
     overflow: hidden;
 }
 
 
 div#sub-nav {
-    height: 0.5vh;
+    height: 8.5vh;
     width: 100%;
-    background-image: linear-gradient(315deg, rgb(229 236 237) 0%, rgb(13 79 166) 74%);
+    background-image: linear-gradient(315deg, #414141, #000000);
 }
 
 
@@ -62,9 +62,22 @@ sub-nav {
 }
 #opening-statements h1 {
     margin: 0 10px 0 0 ;
+    opacity: 0.5;
+    transition: opacity ease-in-out 0.25s;
+}
+#opening-statements h1:hover {
+    opacity: 1;
+   /* color: firebrick;*/
+    z-index: 1;
 }
 #opening-statements h3 {
     margin: 42px 11px 18px 20%;
+    opacity: 0.5;
+    transition: opacity ease-in-out 0.25s;
+
+}
+#opening-statements h3:hover {
+    opacity: 1;
 }
 #opening-statements p {
     padding: 10px 5px 5px 5px;
@@ -81,6 +94,30 @@ sub-nav {
 }
 
 .par .par-three {
+
+}
+
+.foot-note {
+    font-size: xx-small;
+    margin: 50px 0px 0px;
+
+    padding: 25px 15px;
+    z-index: 1;
+}
+#img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-holder {
+
+    height: 10vh;
+    width: 75%;
+    margin: 20px 0 0 0;
+    border: solid ghostwhite 3px ;
+    background-image: linear-gradient(#8B939A, #5B6467);
+
+    background-color: grey;
 
 }
 
