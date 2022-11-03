@@ -19,6 +19,11 @@ body {
     width: 100%;
     /*background-image: url(../../../webapp/WEB-INF/img/pexels-cátia-matos-1072179.jpg);*/
 }
+
+a {
+    font-style: italic;
+    color: ghostwhite;
+}
 nav {
     display: block;
     /*
@@ -32,15 +37,17 @@ nav {
 
 
 div#sub-nav {
-    height: 8.5vh;
+    height: 4.5vh;;
     width: 100%;
-    background-image: linear-gradient(315deg, #414141, #000000);
+    background-color: ghostwhite;
+    position: static;
 }
 
 
 
 ul {
-    text-align: right;
+    justify-content: center;
+    display: flex;
 }
 li {
     color: firebrick;
@@ -111,8 +118,8 @@ sub-nav {
 }
 .img-holder {
 
-    height: 10vh;
-    width: 75%;
+    height: 30vh;
+    width: 60%;
     margin: 20px 0 0 0;
     border: solid ghostwhite 3px ;
     background-image: linear-gradient(#8B939A, #5B6467);
