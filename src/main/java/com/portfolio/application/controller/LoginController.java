@@ -15,11 +15,11 @@ public class LoginController {
         return "login";
 
 
-        @PostMapping("login")
+   /*     @PostMapping("login")
 
         public String getLogin(@ModelAttribute("login") Login login){
-            /* return "login";*/
+            *//* return "login";*//*
             return System.out.println("Login:" + login.getId());
-        }
+        }*/
     }
 }
