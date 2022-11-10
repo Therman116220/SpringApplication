@@ -20,7 +20,7 @@ public class GreetingController {
 public String greeting(Map<String, Object> model) {
     model.put("name", "Welcome ");
     /*model.put("name", "Bobby ");*/
-    return "SplashPage";/*Once again JSP goes here*/
+    return "index";/*Once again JSP goes here*/
 }
    /* public String greetings(Map<Integer, Object> models) {
         models.put( 4,4 );
