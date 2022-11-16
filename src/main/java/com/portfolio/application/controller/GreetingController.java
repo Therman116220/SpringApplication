@@ -12,7 +12,6 @@ public class GreetingController {
                        /* Map:String/Object Pair, w/ parameter name of "model" because it's passed to model */
 public String greeting(Map<String, Object> model) {
     model.put("name", "Welcome ");
-    /*model.put("name", "Bobby ");*/
     return "portfolio";/*Once again JSP goes here*/
 }}
 

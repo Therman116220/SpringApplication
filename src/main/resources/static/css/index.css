@@ -185,7 +185,7 @@ footer p {
     border-color: #6f8991;
 }
 
-#mybutton {
+.mybutton {
     position: fixed;
     bottom: -4px;
     right: 10px;
